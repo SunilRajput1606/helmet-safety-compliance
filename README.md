@@ -1,6 +1,7 @@
 # ⛑️ Helmet Safety Compliance Detection System
 
 ## Overview
+
 Real-time AI system jo warehouse workers ki helmet compliance detect karta hai.
 Har worker ko track karta hai aur violations ka snapshot save karta hai.
 
@@ -29,7 +30,7 @@ Output Video + CSV + Violation Images + Heatmap
 ```
 helmet-safety-system/
 ├── data/
-│   └── sample_video.mp4      ← Apna video yahan rakho
+│   └── sample_video.mp4      ← Input video (Google Drive pe available)
 ├── src/
 │   ├── tracker.py            ← ByteTrack tracking
 │   ├── helmet_checker.py     ← Helmet detection logic
@@ -51,7 +52,7 @@ helmet-safety-system/
 
 ## Setup & Run
 
-```bash
+```
 pip install -r requirements.txt
 python main.py
 streamlit run dashboard.py
@@ -80,17 +81,25 @@ frame, timestamp, track_id, status, helmet_color, confidence, x, y, width, heigh
 ---
 
 ## Limitations
-- Color-based detection — complex lighting mein accuracy kam hoti hai
-- Custom helmet YOLO model se accuracy bohot badhegi
-- Roboflow pe "helmet detection" search karo free model ke liye
-- Occlusion mein tracking ID change ho sakti hai
+
+* Color-based detection — complex lighting mein accuracy kam hoti hai
+* Custom helmet YOLO model se accuracy bohot badhegi
+* Roboflow pe "helmet detection" search karo free model ke liye
+* Occlusion mein tracking ID change ho sakti hai
+
+---
 
 ## Future Improvements
-- Custom YOLOv8 helmet model train karna
-- REST API endpoint banana
-- Real-time camera (RTSP) support
-- SMS/Email alerts for violations
 
--  Output Video — Google Drive
--  ## Output Video
-[Click here to watch output video](https://drive.google.com/drive/folders/1nGWN0J-Sv6cXunaS1bQ8XyiY6FzQHR7f)
+* Custom YOLOv8 helmet model train karna
+* REST API endpoint banana
+* Real-time camera (RTSP) support
+* SMS/Email alerts for violations
+
+---
+
+## 🎥 Videos (Google Drive)
+
+> Input aur Output dono videos Google Drive pe available hain:
+
+📂 [Click here to watch Input & Output Videos](https://drive.google.com/drive/folders/1nGWN0J-Sv6cXunaS1bQ8XyiY6FzQHR7f)
