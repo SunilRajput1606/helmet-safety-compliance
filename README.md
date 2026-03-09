@@ -90,3 +90,7 @@ frame, timestamp, track_id, status, helmet_color, confidence, x, y, width, heigh
 - REST API endpoint banana
 - Real-time camera (RTSP) support
 - SMS/Email alerts for violations
+
+-  Output Video — Google Drive
+-  ## Output Video
+[Click here to watch output video](https://drive.google.com/drive/folders/1nGWN0J-Sv6cXunaS1bQ8XyiY6FzQHR7f)
