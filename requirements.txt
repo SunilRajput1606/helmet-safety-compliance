@@ -1,0 +1,22 @@
+# Helmet Safety Compliance Detection System
+# Dependencies
+
+# Core AI / Detection
+ultralytics>=8.0.0        # YOLOv8 model
+supervision>=0.18.0       # ByteTrack tracking
+
+# Computer Vision
+opencv-python>=4.8.0      # Video processing & drawing
+Pillow>=10.0.0            # Image handling
+
+# Data & Analytics
+pandas>=2.0.0             # CSV logs & data analysis
+numpy>=1.24.0             # Array operations
+
+# Visualization & Dashboard
+streamlit>=1.28.0         # Dashboard (dashboard.py)
+matplotlib>=3.7.0         # Heatmap & plots
+seaborn>=0.12.0           # Analytics charts
+
+# Utilities
+tqdm>=4.65.0              # Progress bars
